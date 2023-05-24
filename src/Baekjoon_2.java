@@ -7,7 +7,7 @@ public class Baekjoon_2 {
     
     Scanner myObj = new Scanner(System.in);
     int A = myObj.nextInt();
-    int B = myObj2.nextInt();
+    int B = myObj.nextInt();
     System.out.println(A+B);
     // return 0;
   }
