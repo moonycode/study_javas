@@ -22,8 +22,9 @@ public class pollsWithoutMethod {
       for (int second = 0; second < QnA[1].length; second = second + 1) {
         System.out.print(QnA[1][second] + " ");
       }
+      System.out.println(" -답은 한가지만 선택가능.");
       System.out.println();
-      System.out.println();
+    
       System.out.print("답) ");
       userAnswer = sc.nextInt();
       totalAnswers[first] = userAnswer;
