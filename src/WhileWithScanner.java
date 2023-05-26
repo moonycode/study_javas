@@ -23,10 +23,9 @@ public class WhileWithScanner {
           System.out.println("예금 업무입니다..");
         } else {
             System.out.println("업무가 종료됩니다..");
-            break;
+            loops = false;
         }
       }
-
 
 
       } catch (Exception e) {
