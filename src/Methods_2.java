@@ -52,13 +52,14 @@ public class Methods_2 {
         Methods methods_instanced = new Methods();
   
         int result = 0;
+        int goal = 17;
   
-        for (int x = 2; result <= 17; result = methods_instanced.add(result, x)) {
+        for (int x = 2; result <= goal; result = methods_instanced.add(result, x)) {
           System.out.println("add result = " + result);
           }
         System.out.println("add result = " + result);
   
-        for (int y = 1; result >= 17; result = methods_instanced.sub(result, y)) {
+        for (int y = 1; result >= goal; result = methods_instanced.sub(result, y)) {
           
           System.out.println("sub result = " + result);
         }
