@@ -19,28 +19,6 @@ public class Methods {
     return result;
   }
 
-  // public int mul(int first, int second){
-  // int result = 0;
-  // try {
-  // result = first * second;
-  // } catch (Exception e) {
-  // // TODO: handle exception
-  // }
-  // return result;
-  // }
-
-  // public int div(int first, int second){
-  // int result = 0;
-  // try {
-  // result = first / second;
-  // } catch (Exception e) {
-  // // TODO: handle exception
-  // // second가 0일 때
-
-  // }
-  // return result;
-  // }
-
   public static void main(String[] args) {
     // - 인스턴스는 1회
     // - 초기 변수 값은 2를 넘지 않는다.
