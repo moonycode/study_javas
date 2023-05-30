@@ -57,7 +57,7 @@ public class Methods {
         }
       System.out.println("add result = " + result);
 
-      for (int y = 1; result >= 15; result = methods_instanced.sub(result, y)) {
+      for (int y = 1; result >= 17; result = methods_instanced.sub(result, y)) {
         
         System.out.println("sub result = " + result);
       }
