@@ -10,11 +10,11 @@ public class MethodBasics {
     return result;
   }
 
-  public int G (int y)
-  {
-    int result = y + 1;
-    return result;
-  }
+  // public int G (int y)
+  // {
+  //   int result = y + 1;
+  //   return result;
+  // }
 
 
   public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class MethodBasics {
             y = methodBasics.F(x);
             
             // y = y + 1; // 변수에 +1
-            y = methodBasics.G(y);
+            y = methodBasics.F(y);
 
     } catch (Exception e) {
       // TODO: handle exception

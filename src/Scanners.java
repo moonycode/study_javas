@@ -1,12 +1,20 @@
-// import java.util.Scanner;
-// public class Scanners {
-//   public static void main(String[] args) {
-//     Scanner myObj = new Scanner(System.in);
-//     System.out.println("Enter username");
+import java.util.Scanner;
 
-//     String userName = myObj.nextLine();
-//     System.out.println("Username is: "+userName);
+public class Scanners{
 
-//     // return 0;
-//   }
-// }
+  public static void main(String[] args) throws InterruptedException{
+    Scanner myObj = new Scanner(System.in);
+    boolean t = true;
+    String letter = null;
+    int count = 0;
+    while (t) {
+      System.out.println("Enter keyword");
+      letter = myObj.nextLine();
+      switch(letter) {
+        case "P":
+          System.out.println("letter P");
+          break;
+      }
+    }
+  }
+}
