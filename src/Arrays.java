@@ -1,21 +1,20 @@
-public class Arrays {
-  public static void main(String[] args) {
-    String[][] numbers = {
-      {"10","20","30","40"}, 
-      {"50","60","70"}
-    };
-    for (int second = 0; second < numbers.length; second = second + 1){
-      for (int third = 0; third < numbers[second].length; third = third + 1){
-        System.out.print(numbers[second][third]+" ");
-      }
-      System.out.println();  
-    }
+import java.sql.Array;
 
-    // String[] cars = {"Volvo", "BMW", "Ford", "Mazda", "KIA"};
-    // String myCar = cars[1];
-    // for (int first = 0; first < cars.length ; first++){
-    // System.out.print(cars[first]+" ");}
-    System.out.println("end");    
+public class Arrays {
+  public String[] initialArrays(){
+    String[] carsTypes = {"Volvo", "BMW", "Ford", "Mazda", "KIA"};
+    return carsTypes ;
+  }
+
+  public static void main(String[] args) {
+    Arrays arrays = new Arrays(); // 인스턴스화 // 내부에서 변수를 할당해서 사용
+    String[] cars = arrays.initialArrays(); // cars = {"Volvo", "BMW", "Ford", "Mazda", "KIA"}
+    System.out.println(cars.length); // 5
+    for (int first=0; first<cars.length; first = first+1){ // Arrays 내용 출력
+      System.out.print(cars[first]+",");
+    }
+    
+      System.out.println();
     // return 0;
   }
 }
